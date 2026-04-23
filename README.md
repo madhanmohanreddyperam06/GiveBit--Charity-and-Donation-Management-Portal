@@ -1,4 +1,4 @@
-# Charity & Donation Management Portal
+# GiveBit - Charity & Donation Management Portal
 
 ![Angular](https://img.shields.io/badge/Angular-16-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=node.js&logoColor=white)
