@@ -1,39 +1,89 @@
 # Charity & Donation Management Portal
 
-A full-stack web application for managing charity donations and contributions between NGOs and donors.
+![Angular](https://img.shields.io/badge/Angular-16-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-## Features 
+A comprehensive full-stack web application designed to streamline charity donations and facilitate seamless contributions between NGOs and donors. The platform provides an intuitive interface for managing donation requests, tracking contributions, and fostering community engagement through real-time updates and gamification features.
 
-- **User Authentication**: Role-based login (NGO/Donor)
-- **Donation Management**: NGOs can create and manage donation requests
-- **Contribution System**: Donors can browse and contribute to donations
-- **Dashboard**: Personalized dashboards for both NGOs and Donors
-- **Leaderboard**: Top contributors ranking system
-- **Real-time Updates**: Live status tracking of donations and contributions
+## 🚀 Key Features
 
-## Tech Stack
+### 🔐 **User Authentication & Authorization**
 
-### Frontend
+- Role-based access control (NGO/Donor)
+- Secure JWT authentication
+- Password encryption with bcryptjs
 
-- Angular 16
-- Angular Material
-- TypeScript
-- RxJS
+### 💝 **Donation Management**
 
-### Backend
+- NGOs can create, edit, and manage donation requests
+- Categorization by donation type (monetary, goods, services)
+- Priority-based donation sorting
+- Location-based donation discovery
 
-- Node.js
-- Express.js
-- TypeScript
-- MySQL
-- JWT Authentication
-- bcryptjs
+### 💰 **Contribution System**
 
-## Prerequisites
+- Donors can browse and filter available donations
+- Secure contribution processing
+- Real-time contribution tracking
+- Contribution history and analytics
 
-1. Node.js (v16 or higher)
-2. MySQL Server
-3. Angular CLI
+### 📊 **Dashboard & Analytics**
+
+- Personalized dashboards for NGOs and Donors
+- Real-time statistics and insights
+- Visual charts and progress indicators
+
+### 🏆 **Gamification & Community**
+
+- Leaderboard showcasing top contributors
+- Achievement badges and recognition system
+- Social sharing capabilities
+
+### ⚡ **Real-time Features**
+
+- Live status updates for donations
+- Instant notifications for contributions
+- Real-time chat support system
+
+## 🛠️ Technology Stack
+
+### 🎨 Frontend Technologies
+
+![Angular](https://img.shields.io/badge/Angular-16-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Angular Material](https://img.shields.io/badge/Angular_Material-7B1FA2?style=flat-square&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+
+- **Angular 16** - Modern frontend framework with component-based architecture
+- **Angular Material** - UI component library for consistent design
+- **TypeScript** - Type-safe JavaScript for better code quality
+- **RxJS** - Reactive programming for handling asynchronous operations
+
+### ⚙️ Backend Technologies
+
+![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+- **Node.js** - JavaScript runtime for server-side development
+- **Express.js** - Fast, minimalist web framework for Node.js
+- **TypeScript** - Type-safe development on the backend
+- **MySQL** - Relational database for data persistence
+- **JWT Authentication** - Secure token-based authentication
+- **bcryptjs** - Password hashing for security
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (v16 or higher) - [Download here](https://nodejs.org/)
+- **MySQL Server** (v8.0 recommended) - [Download here](https://www.mysql.com/)
+- **Angular CLI** - Install globally: `npm install -g @angular/cli`
+- **Git** - For version control
 
 ## Installation
 
@@ -46,7 +96,7 @@ cd "Charity & Donation Management Portal"
 
 ### 2. Backend Setup
 
-#### Install Dependencies
+#### Install Backend Dependencies
 
 ```bash
 cd backend
@@ -62,7 +112,7 @@ npm install
 CREATE DATABASE charity_donation_portal;
 ```
 
-3. Run the database schema:
+1. Run the database schema:
 
 ```bash
 mysql -u root -p charity_donation_portal < src/database.sql
@@ -90,7 +140,7 @@ npm start
 
 ### 3. Frontend Setup
 
-#### Install Dependencies
+#### Install Frontend Dependencies
 
 ```bash
 cd frontend
@@ -232,9 +282,24 @@ This project is licensed under the ISC License.
 
 For any issues or questions, please contact the development team.
 
-## Contact
+## 📞 Contact
 
-- Peram Madhan Mohan Reddy[emailID: madhanmohanreddyperam06@gmail.com, Mobile : +91 9110395993]
-- Narukula Chiru Venkata Mohan [emailID: chiruvenkat09@gmail.com]
-- Ande Shireesha[emailID: madhanmohanreddyperam06@gmail.com]
-- Nikhilashree[emailID: nikilashree.m@gmail.com]
+### Project Lead
+
+#### Madhan Mohan Reddy
+
+- 📧 Email: [madhanmohanreddyperam06@gmail.com](mailto:madhanmohanreddyperam06@gmail.com)
+- 📱 Mobile: +91 9110395993
+
+### Team Members
+
+- **Narukula Chiru Venkata Mohan**
+  - 📧 Email: [chiruvenkat09@gmail.com](mailto:chiruvenkat09@gmail.com)
+- **Ande Shireesha**
+  - 📧 Email: [madhanmohanreddyperam06@gmail.com](mailto:madhanmohanreddyperam06@gmail.com)
+- **Nikhilashree**
+  - 📧 Email: [nikilashree.m@gmail.com](mailto:nikilashree.m@gmail.com)
+
+### Get Support
+
+For any technical issues, feature requests, or questions, please don't hesitate to reach out to our development team. We're committed to providing timely assistance and continuously improving the platform.
